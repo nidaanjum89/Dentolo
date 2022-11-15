@@ -1,0 +1,283 @@
+{
+	"info": {
+		"_postman_id": "9125e494-54d7-4efb-b458-ecd90eb1e3bd",
+		"name": "dentolo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10674626"
+	},
+	"item": [
+		{
+			"name": "Sucess case",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "275082ed-7dd0-4701-bfc4-86144adb313e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"nidaanjum89@gmail.com\",\n    \"contract_key\":\"V8254975856\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://beta7.dentolo-test.de/api/petolo/v1/fressnapf/validate_contract",
+					"protocol": "https",
+					"host": [
+						"beta7",
+						"dentolo-test",
+						"de"
+					],
+					"path": [
+						"api",
+						"petolo",
+						"v1",
+						"fressnapf",
+						"validate_contract"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empty email",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "275082ed-7dd0-4701-bfc4-86144adb313e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"nidaanjum89@gmail.com\",\n    \"contract_key\":\"V8254975856\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://beta7.dentolo-test.de/api/petolo/v1/fressnapf/validate_contract",
+					"protocol": "https",
+					"host": [
+						"beta7",
+						"dentolo-test",
+						"de"
+					],
+					"path": [
+						"api",
+						"petolo",
+						"v1",
+						"fressnapf",
+						"validate_contract"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "empty contract key",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "275082ed-7dd0-4701-bfc4-86144adb313e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"nidaanjum89@gmail.com\",\n    \"contract_key\":\"V8254975856\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://beta7.dentolo-test.de/api/petolo/v1/fressnapf/validate_contract",
+					"protocol": "https",
+					"host": [
+						"beta7",
+						"dentolo-test",
+						"de"
+					],
+					"path": [
+						"api",
+						"petolo",
+						"v1",
+						"fressnapf",
+						"validate_contract"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid contract key",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "275082ed-7dd0-4701-bfc4-86144adb313e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"nidaanjum89@gmail.com\",\n    \"contract_key\":\"V8254975856\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://beta7.dentolo-test.de/api/petolo/v1/fressnapf/validate_contract",
+					"protocol": "https",
+					"host": [
+						"beta7",
+						"dentolo-test",
+						"de"
+					],
+					"path": [
+						"api",
+						"petolo",
+						"v1",
+						"fressnapf",
+						"validate_contract"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Valid key but belongs to another customer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "275082ed-7dd0-4701-bfc4-86144adb313e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"nidaanjum89@gmail.com\",\n    \"contract_key\":\"V8254975856\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://beta7.dentolo-test.de/api/petolo/v1/fressnapf/validate_contract",
+					"protocol": "https",
+					"host": [
+						"beta7",
+						"dentolo-test",
+						"de"
+					],
+					"path": [
+						"api",
+						"petolo",
+						"v1",
+						"fressnapf",
+						"validate_contract"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Response time",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "275082ed-7dd0-4701-bfc4-86144adb313e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"nidaanjum89@gmail.com\",\n    \"contract_key\":\"V8254975856\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://beta7.dentolo-test.de/api/petolo/v1/fressnapf/validate_contract",
+					"protocol": "https",
+					"host": [
+						"beta7",
+						"dentolo-test",
+						"de"
+					],
+					"path": [
+						"api",
+						"petolo",
+						"v1",
+						"fressnapf",
+						"validate_contract"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid api key",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "275082ed-7dd0-4701-bfc4-86144adb313e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"nidaanjum89@gmail.com\",\n    \"contract_key\":\"V8254975856\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://beta7.dentolo-test.de/api/petolo/v1/fressnapf/validate_contract",
+					"protocol": "https",
+					"host": [
+						"beta7",
+						"dentolo-test",
+						"de"
+					],
+					"path": [
+						"api",
+						"petolo",
+						"v1",
+						"fressnapf",
+						"validate_contract"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
