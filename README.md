@@ -9,4 +9,5 @@
 * In this repo you will find json postman collection  
 * Import the json postaman collection into postman tool  
 * Go to test tab in postman to see some checks added to make API testing one step smarter  
+* Handy excel sheet added to see test scenarios https://docs.google.com/spreadsheets/d/17Ubw9nuuyZRNJ1CzIL94jfKIbs6q0YUSwHLajHehS4k/edit?usp=sharing
 
